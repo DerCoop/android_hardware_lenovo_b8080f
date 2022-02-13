@@ -16,10 +16,10 @@
 
 /*
  *    Revision History:
- * - 2011/03/11 : Rama, Meka(v.meka@samsung.com)
+ * - 2011/03/11 : Rama, Meka(v.meka@lenovo.com)
  * Initial version
  *
- * - 2011/12/07 : Jeonghee, Kim(jhhhh.kim@samsung.com)
+ * - 2011/12/07 : Jeonghee, Kim(jhhhh.kim@lenovo.com)
  * Add V4L2_PIX_FMT_YUV420M V4L2_PIX_FMT_NV12M
  *
  */

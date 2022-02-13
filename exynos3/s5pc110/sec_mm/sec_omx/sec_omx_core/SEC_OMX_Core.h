@@ -18,9 +18,9 @@
 /*
  * @file       SEC_OMX_Core.h
  * @brief      SEC OpenMAX IL Core
- * @author     SeungBeom Kim (sbcrux.kim@samsung.com)
- *             HyeYeon Chung (hyeon.chung@samsung.com)
- *             Yunji Kim (yunji.kim@samsung.com)
+ * @author     SeungBeom Kim (sbcrux.kim@lenovo.com)
+ *             HyeYeon Chung (hyeon.chung@lenovo.com)
+ *             Yunji Kim (yunji.kim@lenovo.com)
  * @version    1.0
  * @history
  *    2010.7.15 : Create

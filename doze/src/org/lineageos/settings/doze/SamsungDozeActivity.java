@@ -20,7 +20,7 @@ import android.preference.PreferenceActivity;
 
 public class SamsungDozeActivity extends PreferenceActivity {
 
-    private static final String TAG = "samsung_doze";
+    private static final String TAG = "lenovo_doze";
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -25,7 +25,7 @@ namespace vendor {
 namespace lineage {
 namespace livedisplay {
 namespace V2_0 {
-namespace samsung {
+namespace lenovo {
 
 using ::android::hardware::hidl_array;
 using ::android::hardware::hidl_memory;
@@ -52,7 +52,7 @@ class DisplayModes : public IDisplayModes {
     int32_t mDefaultModeId;
 };
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V2_0
 }  // namespace livedisplay
 }  // namespace lineage

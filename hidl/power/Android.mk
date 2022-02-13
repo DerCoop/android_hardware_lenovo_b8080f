@@ -24,7 +24,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/include \
-    hardware/samsung/hidl/light/include
+    hardware/lenovo/hidl/light/include
 
 LOCAL_SHARED_LIBRARIES := \
     libbase \
@@ -40,7 +40,7 @@ LOCAL_MODULE := android.hardware.power@1.0-service.exynos
 LOCAL_INIT_RC := android.hardware.power@1.0-service.exynos.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := samsung
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_VENDOR_MODULE := true
 
 include $(BUILD_EXECUTABLE)

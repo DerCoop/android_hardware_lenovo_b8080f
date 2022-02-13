@@ -18,7 +18,7 @@
 /*
  * @file        library_register.h
  * @brief
- * @author      Satish Kumar Reddy (palli.satish@samsung.com)
+ * @author      Satish Kumar Reddy (palli.satish@lenovo.com)
  * @version     1.1.0
  * @history
  *   2011.11.15 : Create

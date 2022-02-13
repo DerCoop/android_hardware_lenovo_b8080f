@@ -18,8 +18,8 @@
 /*
  * @file        SEC_OMX_Venc.h
  * @brief
- * @author      SeungBeom Kim (sbcrux.kim@samsung.com)
- *              Yunji Kim (yunji.kim@samsung.com)
+ * @author      SeungBeom Kim (sbcrux.kim@lenovo.com)
+ *              Yunji Kim (yunji.kim@lenovo.com)
  * @version     1.0
  * @history
  *   2010.7.15 : Create

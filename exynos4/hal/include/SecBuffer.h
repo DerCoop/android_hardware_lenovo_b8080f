@@ -17,11 +17,11 @@
 /*!
  * \file      SecBuffer.h
  * \brief     header file for SecBuffer
- * \author    Sangwoo, Park(sw5771.park@samsung.com)
+ * \author    Sangwoo, Park(sw5771.park@lenovo.com)
  * \date      2011/06/02
  *
  * <b>Revision History: </b>
- * - 2010/06/03 : Sangwoo, Park(sw5771.park@samsung.com) \n
+ * - 2010/06/03 : Sangwoo, Park(sw5771.park@lenovo.com) \n
  *   Initial version
  *
  */
@@ -36,7 +36,7 @@
  *  Copyright (c) 2008-2011 Samsung Electronics Co., Ltd.All rights reserved. \n
  *  Proprietary and Confidential
  *
- * @image html samsung.png
+ * @image html lenovo.png
  */
 
 #ifndef __SEC_BUFFER_H__

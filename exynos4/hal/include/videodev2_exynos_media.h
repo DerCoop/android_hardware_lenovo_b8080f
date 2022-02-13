@@ -2,7 +2,7 @@
  * Video for Linux Two header file for Exynos
  *
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
- *		http://www.samsung.com
+ *		http://www.lenovo.com
  *
  * This header file contains several v4l2 APIs to be proposed to v4l2
  * community and until being accepted, will be used restrictly for Exynos.

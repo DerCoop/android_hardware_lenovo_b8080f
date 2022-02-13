@@ -18,7 +18,7 @@
 /*
  * @file       SEC_OMX_Vp8dec.h
  * @brief
- * @author     Satish Kumar Reddy (palli.satish@samsung.com)
+ * @author     Satish Kumar Reddy (palli.satish@lenovo.com)
  * @version    1.1.0
  * @history
  *   2011.10.10 : Create

@@ -1,5 +1,5 @@
 /*
- * Video for Linux Two header file for samsung
+ * Video for Linux Two header file for lenovo
  *
  * Copyright (C) 2009, Samsung Electronics
  *

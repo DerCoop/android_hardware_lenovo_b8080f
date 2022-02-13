@@ -17,7 +17,7 @@
 #include "SecRadioResponse.h"
 
 namespace vendor {
-namespace samsung {
+namespace lenovo {
 namespace hardware {
 namespace radio {
 namespace V1_2 {
@@ -940,10 +940,10 @@ Return<void> SecRadioResponse::getDataRegistrationStateResponse_1_2(
     return Void();
 }
 
-// Methods from ::vendor::samsung::hardware::radio::V1_2::IRadioResponse follow.
+// Methods from ::vendor::lenovo::hardware::radio::V1_2::IRadioResponse follow.
 Return<void> SecRadioResponse::secGetIccCardStatusReponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecCardStatus&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecCardStatus&) {
     return Void();
 }
 
@@ -964,25 +964,25 @@ Return<void> SecRadioResponse::secDialResponse(
 
 Return<void> SecRadioResponse::secGetCurrentCallsResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const hidl_vec<::vendor::samsung::hardware::radio::V1_2::SecCall>&) {
+    const hidl_vec<::vendor::lenovo::hardware::radio::V1_2::SecCall>&) {
     return Void();
 }
 
 Return<void> SecRadioResponse::secGetSignalStrengthResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecSignalStrength&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecSignalStrength&) {
     return Void();
 }
 
 Return<void> SecRadioResponse::secGetVoiceRegistrationStateResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecVoiceRegStateResult&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecVoiceRegStateResult&) {
     return Void();
 }
 
 Return<void> SecRadioResponse::secGetDataRegistrationStateResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecDataRegStateResult&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecDataRegStateResult&) {
     return Void();
 }
 
@@ -1009,7 +1009,7 @@ Return<void> SecRadioResponse::secgetImsRegistrationStateReponse(
 
 Return<void> SecRadioResponse::secGetAvailableNetworkResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const hidl_vec<::vendor::samsung::hardware::radio::V1_2::SecOperatorInfo>&) {
+    const hidl_vec<::vendor::lenovo::hardware::radio::V1_2::SecOperatorInfo>&) {
     return Void();
 }
 
@@ -1036,7 +1036,7 @@ Return<void> SecRadioResponse::oemSetImsCallListResponse(
 
 Return<void> SecRadioResponse::oemGetPreferredNetworkListResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const hidl_vec<::vendor::samsung::hardware::radio::V1_2::OemPreferredNetworkInfo>&) {
+    const hidl_vec<::vendor::lenovo::hardware::radio::V1_2::OemPreferredNetworkInfo>&) {
     return Void();
 }
 
@@ -1152,7 +1152,7 @@ Return<void> SecRadioResponse::oemChangeIccPersoResponse(
 
 Return<void> SecRadioResponse::oemGetPhoneBookEntryResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::OemSimPBResponse&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::OemSimPBResponse&) {
     return Void();
 }
 
@@ -1163,7 +1163,7 @@ Return<void> SecRadioResponse::oemAccessPhoneBookEntryResponse(
 
 Return<void> SecRadioResponse::oemGetCellBroadcastConfigResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::OemCbConfigArgs&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::OemCbConfigArgs&) {
     return Void();
 }
 
@@ -1184,31 +1184,31 @@ Return<void> SecRadioResponse::oemGetAtrResponse(
 
 Return<void> SecRadioResponse::oemSendCdmaSmsExpectMoreResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult&) {
     return Void();
 }
 
 Return<void> SecRadioResponse::secSendSmsResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult&) {
     return Void();
 }
 
 Return<void> SecRadioResponse::secSendSMSExpectMoreResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult&) {
     return Void();
 }
 
 Return<void> SecRadioResponse::secSendCdmaSmsResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult&) {
     return Void();
 }
 
 Return<void> SecRadioResponse::secSendImsSmsResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult&) {
     return Void();
 }
 
@@ -1239,7 +1239,7 @@ Return<void> SecRadioResponse::secQuery5gStatusResponse(
 
 Return<void> SecRadioResponse::secQueryNrDcParamResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::DcParam&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::DcParam&) {
     return Void();
 }
 
@@ -1250,13 +1250,13 @@ Return<void> SecRadioResponse::secQueryNrBearerAllocationResponse(
 
 Return<void> SecRadioResponse::secQueryNrSignalStrengthResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const ::vendor::samsung::hardware::radio::V1_2::NrSignalStrength&) {
+    const ::vendor::lenovo::hardware::radio::V1_2::NrSignalStrength&) {
     return Void();
 }
 
 Return<void> SecRadioResponse::oemQueryCsgListResponse(
     const ::android::hardware::radio::V1_0::RadioResponseInfo&,
-    const hidl_vec<::vendor::samsung::hardware::radio::V1_2::OemCsgInfo>&) {
+    const hidl_vec<::vendor::lenovo::hardware::radio::V1_2::OemCsgInfo>&) {
     return Void();
 }
 
@@ -1269,5 +1269,5 @@ Return<void> SecRadioResponse::oemSelectCsgManualResponse(
 }  // namespace V1_2
 }  // namespace radio
 }  // namespace hardware
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace vendor

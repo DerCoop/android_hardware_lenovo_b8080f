@@ -20,13 +20,13 @@
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
 #include <vendor/lineage/touch/1.0/ITouchscreenGesture.h>
-#include "samsung_touch.h"
+#include "lenovo_touch.h"
 
 namespace vendor {
 namespace lineage {
 namespace touch {
 namespace V1_0 {
-namespace samsung {
+namespace lenovo {
 
 using ::android::hardware::hidl_array;
 using ::android::hardware::hidl_memory;
@@ -56,7 +56,7 @@ class TouchscreenGesture : public ITouchscreenGesture {
 // FIXME: most likely delete, this is only for passthrough implementations
 // extern "C" ITouchscreenGesture* HIDL_FETCH_ITouchscreenGesture(const char* name);
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V1_0
 }  // namespace touch
 }  // namespace lineage

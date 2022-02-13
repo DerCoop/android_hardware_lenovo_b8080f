@@ -16,9 +16,9 @@
 
 /*
  *
- * @author Rama, Meka(v.meka@samsung.com)
-	   Sangwoo, Park(sw5771.park@samsung.com)
-	   Jamie, Oh (jung-min.oh@samsung.com)
+ * @author Rama, Meka(v.meka@lenovo.com)
+	   Sangwoo, Park(sw5771.park@lenovo.com)
+	   Jamie, Oh (jung-min.oh@lenovo.com)
  * @date   2011-03-11
  *
  */

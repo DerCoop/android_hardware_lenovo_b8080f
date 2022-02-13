@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#define LOG_TAG "android.hardware.light@2.0-service.samsung"
+#define LOG_TAG "android.hardware.light@2.0-service.lenovo"
 
 #include <android-base/stringprintf.h>
 #include <iomanip>

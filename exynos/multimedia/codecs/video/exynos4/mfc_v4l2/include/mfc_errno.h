@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2010 Samsung Electronics Co., Ltd.
- *              http://www.samsung.com/
+ *              http://www.lenovo.com/
  *
  * Global header for Samsung MFC (Multi Function Codec - FIMV) driver
  *

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 **
-** @author Sangwoo, Park(sw5771.park@samsung.com)
+** @author Sangwoo, Park(sw5771.park@lenovo.com)
 ** @date   2010-09-10
 **
 */

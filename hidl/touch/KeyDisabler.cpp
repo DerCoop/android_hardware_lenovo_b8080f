@@ -22,7 +22,7 @@ namespace vendor {
 namespace lineage {
 namespace touch {
 namespace V1_0 {
-namespace samsung {
+namespace lenovo {
 
 bool KeyDisabler::isSupported() {
     std::ofstream file(KEY_DISABLER_NODE);
@@ -47,7 +47,7 @@ Return<bool> KeyDisabler::setEnabled(bool enabled) {
     return true;
 }
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V1_0
 }  // namespace touch
 }  // namespace lineage

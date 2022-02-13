@@ -1,5 +1,5 @@
 cc_library_shared {
-    name: "android.hardware.sensors@1.0-impl.samsung",
+    name: "android.hardware.sensors@1.0-impl.lenovo",
     defaults: ["hidl_defaults"],
     proprietary: true,
     relative_install_path: "hw",

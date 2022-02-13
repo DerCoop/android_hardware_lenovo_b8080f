@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.touch@1.0-service.samsung"
+#define LOG_TAG "vendor.lineage.touch@1.0-service.lenovo"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
@@ -31,10 +31,10 @@ using android::sp;
 using android::status_t;
 using android::OK;
 
-using ::vendor::lineage::touch::V1_0::samsung::GloveMode;
-using ::vendor::lineage::touch::V1_0::samsung::KeyDisabler;
-using ::vendor::lineage::touch::V1_0::samsung::StylusMode;
-using ::vendor::lineage::touch::V1_0::samsung::TouchscreenGesture;
+using ::vendor::lineage::touch::V1_0::lenovo::GloveMode;
+using ::vendor::lineage::touch::V1_0::lenovo::KeyDisabler;
+using ::vendor::lineage::touch::V1_0::lenovo::StylusMode;
+using ::vendor::lineage::touch::V1_0::lenovo::TouchscreenGesture;
 
 int main() {
     sp<GloveMode> gloveMode;

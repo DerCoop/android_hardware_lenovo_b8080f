@@ -33,12 +33,12 @@ LOCAL_SHARED_LIBRARIES := \
     libutils \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0
 
-LOCAL_MODULE := vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.samsung
-LOCAL_INIT_RC := vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.samsung.rc
+LOCAL_MODULE := vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.lenovo
+LOCAL_INIT_RC := vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.lenovo.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := samsung
-LOCAL_VINTF_FRAGMENTS := vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.samsung.xml
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_VINTF_FRAGMENTS := vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.lenovo.xml
 LOCAL_VENDOR_MODULE := true
 
 include $(BUILD_EXECUTABLE)

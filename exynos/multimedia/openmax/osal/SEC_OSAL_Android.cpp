@@ -17,10 +17,10 @@
 /*
  * @file        SEC_OSAL_Android.cpp
  * @brief
- * @author      Seungbeom Kim (sbcrux.kim@samsung.com)
- * @author      Hyeyeon Chung (hyeon.chung@samsung.com)
- * @author      Yunji Kim (yunji.kim@samsung.com)
- * @author      Jinsung Yang (jsgood.yang@samsung.com)
+ * @author      Seungbeom Kim (sbcrux.kim@lenovo.com)
+ * @author      Hyeyeon Chung (hyeon.chung@lenovo.com)
+ * @author      Yunji Kim (yunji.kim@lenovo.com)
+ * @author      Jinsung Yang (jsgood.yang@lenovo.com)
  * @version     1.1.0
  * @history
  *   2011.7.15 : Create

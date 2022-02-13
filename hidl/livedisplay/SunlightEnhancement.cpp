@@ -29,7 +29,7 @@ namespace vendor {
 namespace lineage {
 namespace livedisplay {
 namespace V2_0 {
-namespace samsung {
+namespace lenovo {
 
 static constexpr const char* kHBMPath = "/sys/class/lcd/panel/panel/auto_brightness";
 static constexpr const char* kSREPath = "/sys/class/mdnie/mdnie/outdoor";
@@ -70,7 +70,7 @@ Return<bool> SunlightEnhancement::setEnabled(bool enabled) {
     return WriteStringToFile(enabled ? "1" : "0", kSREPath, true);
 }
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V2_0
 }  // namespace livedisplay
 }  // namespace lineage

@@ -22,7 +22,7 @@ namespace vendor {
 namespace lineage {
 namespace touch {
 namespace V1_0 {
-namespace samsung {
+namespace lenovo {
 
 bool StylusMode::isSupported() {
     std::ifstream file(TSP_CMD_LIST_NODE);
@@ -54,7 +54,7 @@ Return<bool> StylusMode::setEnabled(bool enabled) {
     return true;
 }
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V1_0
 }  // namespace touch
 }  // namespace lineage

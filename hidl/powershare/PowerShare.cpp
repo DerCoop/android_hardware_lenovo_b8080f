@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "powershare@1.0-service.samsung"
+#define LOG_TAG "powershare@1.0-service.lenovo"
 
 #include "PowerShare.h"
 #include <android-base/logging.h>
 #include <fstream>
 #include <iostream>
-#include "samsung_powershare.h"
+#include "lenovo_powershare.h"
 
 namespace vendor {
 namespace lineage {

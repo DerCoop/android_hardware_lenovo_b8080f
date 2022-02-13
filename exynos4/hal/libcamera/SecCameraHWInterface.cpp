@@ -43,7 +43,7 @@
 // -- it sets preview to NV21 (YUV420SP)
 // -- it sets gralloc to YV12
 //
-// The reason being: the samsung encoder understands only yuv420sp, and gralloc
+// The reason being: the lenovo encoder understands only yuv420sp, and gralloc
 // does yv12 and rgb565.  So what we do is we break up the interleaved UV in
 // separate V and U planes, which makes preview look good, and enabled the
 // encoder as well.

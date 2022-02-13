@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vibrator@1.3-samsung"
+#define LOG_TAG "vibrator@1.3-lenovo"
 
 #include <android-base/logging.h>
 #include <android/hardware/vibrator/1.3/IVibrator.h>

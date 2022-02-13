@@ -18,7 +18,7 @@
 /*
  * @file      SEC_OMX_Mpeg4dec.c
  * @brief
- * @author    Yunji Kim (yunji.kim@samsung.com)
+ * @author    Yunji Kim (yunji.kim@lenovo.com)
  * @version   1.0
  * @history
  *   2010.7.15 : Create

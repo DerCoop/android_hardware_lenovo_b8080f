@@ -18,7 +18,7 @@
 
 #include <vendor/lineage/biometrics/fingerprint/inscreen/1.0/IFingerprintInscreen.h>
 
-#include "samsung_fingerprint_inscreen.h"
+#include "lenovo_fingerprint_inscreen.h"
 
 namespace vendor {
 namespace lineage {

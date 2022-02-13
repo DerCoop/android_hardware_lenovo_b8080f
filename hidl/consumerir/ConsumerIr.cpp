@@ -16,7 +16,7 @@
 
 #include "ConsumerIr.h"
 
-#include <samsung_ir.h>
+#include <lenovo_ir.h>
 
 #include <android-base/file.h>
 #include <android-base/strings.h>

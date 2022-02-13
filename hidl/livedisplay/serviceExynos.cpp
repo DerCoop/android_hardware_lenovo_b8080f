@@ -15,9 +15,9 @@
  */
 
 #ifdef LIVES_IN_SYSTEM
-#define LOG_TAG "lineage.livedisplay@2.0-service.samsung-exynos"
+#define LOG_TAG "lineage.livedisplay@2.0-service.lenovo-exynos"
 #else
-#define LOG_TAG "vendor.lineage.livedisplay@2.0-service.samsung-exynos"
+#define LOG_TAG "vendor.lineage.livedisplay@2.0-service.lenovo-exynos"
 #endif
 
 #include <android-base/logging.h>
@@ -36,11 +36,11 @@ using android::sp;
 using android::status_t;
 using android::OK;
 
-using vendor::lineage::livedisplay::V2_0::samsung::AdaptiveBacklight;
-using vendor::lineage::livedisplay::V2_0::samsung::DisplayColorCalibrationExynos;
-using vendor::lineage::livedisplay::V2_0::samsung::DisplayModes;
-using vendor::lineage::livedisplay::V2_0::samsung::ReadingEnhancement;
-using vendor::lineage::livedisplay::V2_0::samsung::SunlightEnhancementExynos;
+using vendor::lineage::livedisplay::V2_0::lenovo::AdaptiveBacklight;
+using vendor::lineage::livedisplay::V2_0::lenovo::DisplayColorCalibrationExynos;
+using vendor::lineage::livedisplay::V2_0::lenovo::DisplayModes;
+using vendor::lineage::livedisplay::V2_0::lenovo::ReadingEnhancement;
+using vendor::lineage::livedisplay::V2_0::lenovo::SunlightEnhancementExynos;
 
 int main() {
     sp<AdaptiveBacklight> adaptiveBacklight;

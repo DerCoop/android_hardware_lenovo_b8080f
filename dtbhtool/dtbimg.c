@@ -35,7 +35,7 @@
 #include <stdint.h>
 
 /* must be provided by the device tree */
-#include <samsung_dtbh.h>
+#include <lenovo_dtbh.h>
 
 #include "libfdt.h"
 

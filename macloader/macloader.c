@@ -32,7 +32,7 @@
 
 #include <cutils/log.h>
 
-#include <samsung_macloader.h>
+#include <lenovo_macloader.h>
 
 #include "macaddr_mappings.h"
 

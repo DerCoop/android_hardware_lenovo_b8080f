@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.power@1.3-service.samsung-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.3-service.lenovo-libperfmgr"
 
 #include <android/log.h>
 #include <hidl/HidlTransportSupport.h>

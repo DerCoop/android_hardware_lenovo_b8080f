@@ -44,7 +44,7 @@
  *   y25   y26   y27   y28   y29   y30   y31   y32
  *   uv1   uv2   uv3   uv4   uv5   uv6   uv7   uv8
  *   uv9   uv10  uv11  uv12  uv13  uv14  uv15  uv16
- * @author  ShinWon Lee (shinwon.lee@samsung.com)
+ * @author  ShinWon Lee (shinwon.lee@lenovo.com)
  * @version 1.0
  * @history
  *   2011.7.01 : Create

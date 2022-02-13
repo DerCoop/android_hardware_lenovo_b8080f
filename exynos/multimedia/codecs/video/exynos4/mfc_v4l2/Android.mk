@@ -16,7 +16,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/include \
-	device/samsung/$(TARGET_BOARD_PLATFORM)/include
+	device/lenovo/$(TARGET_BOARD_PLATFORM)/include
 
 LOCAL_MODULE := libsecmfcapi
 

@@ -17,17 +17,17 @@
 /*
  * file sec_utils_v4l2.h
  * brief header file for sec_utils_v4l2.h
- * author Sangwoo, Park(sw5771.park@samsung.com)
+ * author Sangwoo, Park(sw5771.park@lenovo.com)
  * date 2011/06/02
  *
  * Revision History:
- * - 2010/06/03 : Sangwoo, Park(sw5771.park@samsung.com)
+ * - 2010/06/03 : Sangwoo, Park(sw5771.park@lenovo.com)
  * Initial version
  *
- * - 2011/12/07 : Jeonghee, Kim(jhhhh.kim@samsung.com)
+ * - 2011/12/07 : Jeonghee, Kim(jhhhh.kim@lenovo.com)
  * use V4L2_PIX_FMT_NV12M as HAL_PIXEL_FORMAT_YCbCr_420_SP, HAL_PIXEL_FORMAT_CUSTOM_YCbCr_420_SP
  *
- * - 2011/12/07 : Hyeonmyeong Choi( hyeon.choi@samsung.com)
+ * - 2011/12/07 : Hyeonmyeong Choi( hyeon.choi@lenovo.com)
  * Add V4L2_PIX_FMT_YVU420M
  *
  */

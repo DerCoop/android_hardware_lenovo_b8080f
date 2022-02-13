@@ -21,8 +21,8 @@
 #include <filesystem>
 #include <fstream>
 #include <iostream>
-#include "samsung_lights.h"
-#include "samsung_power.h"
+#include "lenovo_lights.h"
+#include "lenovo_power.h"
 
 namespace android {
 namespace hardware {

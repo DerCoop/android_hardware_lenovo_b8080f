@@ -18,10 +18,10 @@
 
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
-#include <vendor/samsung/hardware/radio/1.2/IRadioResponse.h>
+#include <vendor/lenovo/hardware/radio/1.2/IRadioResponse.h>
 
 namespace vendor {
-namespace samsung {
+namespace lenovo {
 namespace hardware {
 namespace radio {
 namespace V1_2 {
@@ -395,10 +395,10 @@ struct SecRadioResponse : public IRadioResponse {
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
         const ::android::hardware::radio::V1_2::DataRegStateResult& dataRegResponse) override;
 
-    // Methods from ::vendor::samsung::hardware::radio::V1_2::IRadioResponse follow.
+    // Methods from ::vendor::lenovo::hardware::radio::V1_2::IRadioResponse follow.
     Return<void> secGetIccCardStatusReponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecCardStatus& cardStatus) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::SecCardStatus& cardStatus) override;
     Return<void> secSupplyNetworkDepersonalizationResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
         int32_t remainingRetries) override;
@@ -408,17 +408,17 @@ struct SecRadioResponse : public IRadioResponse {
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
     Return<void> secGetCurrentCallsResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const hidl_vec<::vendor::samsung::hardware::radio::V1_2::SecCall>& calls) override;
+        const hidl_vec<::vendor::lenovo::hardware::radio::V1_2::SecCall>& calls) override;
     Return<void> secGetSignalStrengthResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecSignalStrength& sigStrength) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::SecSignalStrength& sigStrength) override;
     Return<void> secGetVoiceRegistrationStateResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecVoiceRegStateResult& voiceRegResponse)
+        const ::vendor::lenovo::hardware::radio::V1_2::SecVoiceRegStateResult& voiceRegResponse)
         override;
     Return<void> secGetDataRegistrationStateResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecDataRegStateResult& dataRegResponse)
+        const ::vendor::lenovo::hardware::radio::V1_2::SecDataRegStateResult& dataRegResponse)
         override;
     Return<void> secExplicitCallTransferResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
@@ -433,7 +433,7 @@ struct SecRadioResponse : public IRadioResponse {
         const hidl_vec<int32_t>& regState) override;
     Return<void> secGetAvailableNetworkResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const hidl_vec<::vendor::samsung::hardware::radio::V1_2::SecOperatorInfo>& networkInfo)
+        const hidl_vec<::vendor::lenovo::hardware::radio::V1_2::SecOperatorInfo>& networkInfo)
         override;
     Return<void> oemDialEmergencyCallResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
@@ -446,7 +446,7 @@ struct SecRadioResponse : public IRadioResponse {
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
     Return<void> oemGetPreferredNetworkListResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const hidl_vec<::vendor::samsung::hardware::radio::V1_2::OemPreferredNetworkInfo>& infos)
+        const hidl_vec<::vendor::lenovo::hardware::radio::V1_2::OemPreferredNetworkInfo>& infos)
         override;
     Return<void> oemSetPreferredNetworkListResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
@@ -499,13 +499,13 @@ struct SecRadioResponse : public IRadioResponse {
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
     Return<void> oemGetPhoneBookEntryResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::OemSimPBResponse& SimPBResponseInfo) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::OemSimPBResponse& SimPBResponseInfo) override;
     Return<void> oemAccessPhoneBookEntryResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
         int32_t SimPbAccessResp) override;
     Return<void> oemGetCellBroadcastConfigResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::OemCbConfigArgs& configs) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::OemCbConfigArgs& configs) override;
     Return<void> oemEmergencySearchResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
         int32_t respEmergencySearch) override;
@@ -515,19 +515,19 @@ struct SecRadioResponse : public IRadioResponse {
                                    const hidl_string& atr) override;
     Return<void> oemSendCdmaSmsExpectMoreResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult& sms) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult& sms) override;
     Return<void> secSendSmsResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult& sms) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult& sms) override;
     Return<void> secSendSMSExpectMoreResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult& sms) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult& sms) override;
     Return<void> secSendCdmaSmsResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult& sms) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult& sms) override;
     Return<void> secSendImsSmsResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::SecSendSmsResult& sms) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::SecSendSmsResult& sms) override;
     Return<void> secSetDataAllowedResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
     Return<void> secGetCdmaRoamingPreferenceResponse(
@@ -541,16 +541,16 @@ struct SecRadioResponse : public IRadioResponse {
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
     Return<void> secQueryNrDcParamResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::DcParam& endcDcnr) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::DcParam& endcDcnr) override;
     Return<void> secQueryNrBearerAllocationResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
         int32_t bearerStatus) override;
     Return<void> secQueryNrSignalStrengthResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const ::vendor::samsung::hardware::radio::V1_2::NrSignalStrength& nrSignalStrength) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::NrSignalStrength& nrSignalStrength) override;
     Return<void> oemQueryCsgListResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info,
-        const hidl_vec<::vendor::samsung::hardware::radio::V1_2::OemCsgInfo>& csgInfos) override;
+        const hidl_vec<::vendor::lenovo::hardware::radio::V1_2::OemCsgInfo>& csgInfos) override;
     Return<void> oemSelectCsgManualResponse(
         const ::android::hardware::radio::V1_0::RadioResponseInfo& info) override;
 };
@@ -559,5 +559,5 @@ struct SecRadioResponse : public IRadioResponse {
 }  // namespace V1_2
 }  // namespace radio
 }  // namespace hardware
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace vendor

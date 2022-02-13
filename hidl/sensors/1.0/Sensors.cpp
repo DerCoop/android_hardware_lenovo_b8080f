@@ -131,12 +131,12 @@ Return<void> Sensors::getSensorsList(getSensorsList_cb _hidl_cb) {
 
         convertFromSensor(*src, dst);
 
-        if (dst->requiredPermission == "com.samsung.permission.SSENSOR") {
+        if (dst->requiredPermission == "com.lenovo.permission.SSENSOR") {
             dst->requiredPermission = "";
         }
 
-        if (dst->typeAsString == "com.samsung.sensor.physical_proximity") {
-            LOG(INFO) << "Fixing com.samsung.sensor.physical_proximity";
+        if (dst->typeAsString == "com.lenovo.sensor.physical_proximity") {
+            LOG(INFO) << "Fixing com.lenovo.sensor.physical_proximity";
             dst->type = SensorType::PROXIMITY;
             dst->typeAsString = SENSOR_STRING_TYPE_PROXIMITY;
             dst->maxRange = 1;

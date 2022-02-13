@@ -23,7 +23,7 @@ namespace vendor {
 namespace lineage {
 namespace livedisplay {
 namespace V2_0 {
-namespace samsung {
+namespace lenovo {
 
 using ::android::hardware::hidl_vec;
 using ::android::hardware::Return;
@@ -42,7 +42,7 @@ class DisplayColorCalibration : public IDisplayColorCalibration {
     Return<bool> setCalibration(const hidl_vec<int32_t>& rgb) override;
 };
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V2_0
 }  // namespace livedisplay
 }  // namespace lineage

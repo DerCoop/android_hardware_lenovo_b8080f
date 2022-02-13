@@ -17,7 +17,7 @@
 #include "SecRadioIndication.h"
 
 namespace vendor {
-namespace samsung {
+namespace lenovo {
 namespace hardware {
 namespace radio {
 namespace V1_2 {
@@ -375,10 +375,10 @@ Return<void> SecRadioIndication::currentSignalStrength_1_2(
     return Void();
 }
 
-// Methods from ::vendor::samsung::hardware::radio::V1_2::IRadioIndication follow.
+// Methods from ::vendor::lenovo::hardware::radio::V1_2::IRadioIndication follow.
 Return<void> SecRadioIndication::secCurrentSignalStrength(
     ::android::hardware::radio::V1_0::RadioIndicationType type,
-    const ::vendor::samsung::hardware::radio::V1_2::SecSignalStrength& signalStrength) {
+    const ::vendor::lenovo::hardware::radio::V1_2::SecSignalStrength& signalStrength) {
     ::android::hardware::radio::V1_2::SignalStrength newSignalStrength = signalStrength.base;
     if (signalStrength.base.lte.signalStrength == 99) {
         // Set lte signal to invalid
@@ -471,7 +471,7 @@ Return<void> SecRadioIndication::oemSimOnOffNoti(int32_t, int32_t) {
 }
 
 Return<void> SecRadioIndication::oemReleaseCompleteMessageInd(
-    int32_t, const ::vendor::samsung::hardware::radio::V1_2::OemSSReleaseComplete&) {
+    int32_t, const ::vendor::lenovo::hardware::radio::V1_2::OemSSReleaseComplete&) {
     return Void();
 }
 
@@ -488,12 +488,12 @@ Return<void> SecRadioIndication::oem5gStatusChangeInd(int32_t, int32_t) {
 }
 
 Return<void> SecRadioIndication::oemNrDcParamChangeInd(
-    int32_t, const ::vendor::samsung::hardware::radio::V1_2::DcParam&) {
+    int32_t, const ::vendor::lenovo::hardware::radio::V1_2::DcParam&) {
     return Void();
 }
 
 Return<void> SecRadioIndication::oemNrSignalStrengthInd(
-    int32_t, const ::vendor::samsung::hardware::radio::V1_2::NrSignalStrength&) {
+    int32_t, const ::vendor::lenovo::hardware::radio::V1_2::NrSignalStrength&) {
     return Void();
 }
 
@@ -509,5 +509,5 @@ Return<int32_t> SecRadioIndication::oemGetSettingValue(const hidl_string&, const
 }  // namespace V1_2
 }  // namespace radio
 }  // namespace hardware
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace vendor

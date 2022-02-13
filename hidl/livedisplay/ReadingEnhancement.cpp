@@ -29,7 +29,7 @@ namespace vendor {
 namespace lineage {
 namespace livedisplay {
 namespace V2_0 {
-namespace samsung {
+namespace lenovo {
 
 static constexpr const char* kREPath = "/sys/class/mdnie/mdnie/accessibility";
 
@@ -56,7 +56,7 @@ Return<bool> ReadingEnhancement::setEnabled(bool enabled) {
 
 // Methods from ::android::hidl::base::V1_0::IBase follow.
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V2_0
 }  // namespace livedisplay
 }  // namespace lineage

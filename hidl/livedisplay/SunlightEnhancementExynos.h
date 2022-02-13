@@ -25,7 +25,7 @@ namespace vendor {
 namespace lineage {
 namespace livedisplay {
 namespace V2_0 {
-namespace samsung {
+namespace lenovo {
 
 using ::android::hardware::hidl_array;
 using ::android::hardware::hidl_memory;
@@ -46,7 +46,7 @@ class SunlightEnhancementExynos : public ISunlightEnhancement {
     // Methods from ::android::hidl::base::V1_0::IBase follow.
 };
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V2_0
 }  // namespace livedisplay
 }  // namespace lineage

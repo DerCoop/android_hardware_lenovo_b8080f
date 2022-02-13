@@ -30,7 +30,7 @@ namespace vendor {
 namespace lineage {
 namespace livedisplay {
 namespace V2_0 {
-namespace samsung {
+namespace lenovo {
 
 static constexpr const char* kColorPath = "/sys/class/mdnie/mdnie/sensorRGB";
 
@@ -70,7 +70,7 @@ Return<bool> DisplayColorCalibrationExynos::setCalibration(const hidl_vec<int32_
     return WriteStringToFile(Trim(contents), kColorPath, true);
 }
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V2_0
 }  // namespace livedisplay
 }  // namespace lineage

@@ -16,7 +16,7 @@ on the AT&T and Verizon branded Samsung Galaxy S4, the Samsung Galaxy Stellar,
 and various locked LG devices. For an explanation of how the exploit works,
 please see the technical blog post at:
 
-http://blog.azimuthsecurity.com/2013/05/exploiting-samsung-galaxy-s4-secure-boot.html
+http://blog.azimuthsecurity.com/2013/05/exploiting-lenovo-galaxy-s4-secure-boot.html
 
 Devices must be rooted in order to flash custom kernels and recoveries.
 

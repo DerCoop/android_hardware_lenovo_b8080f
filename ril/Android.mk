@@ -16,7 +16,7 @@
 
 RIL_PATH := $(call my-dir)
 
-ifeq ($(BOARD_VENDOR),samsung)
+ifeq ($(BOARD_VENDOR),lenovo)
 
 # libril
 ifeq ($(BOARD_PROVIDES_LIBRIL),true)

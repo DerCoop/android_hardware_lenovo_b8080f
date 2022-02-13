@@ -22,7 +22,7 @@ namespace vendor {
 namespace lineage {
 namespace touch {
 namespace V1_0 {
-namespace samsung {
+namespace lenovo {
 
 static constexpr const char* kGeasturePath = TOUCHSCREEN_GESTURE_NODE;
 
@@ -73,7 +73,7 @@ Return<bool> TouchscreenGesture::setGestureEnabled(
 
 // Methods from ::android::hidl::base::V1_0::IBase follow.
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V1_0
 }  // namespace touch
 }  // namespace lineage

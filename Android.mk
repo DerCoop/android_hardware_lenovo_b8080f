@@ -35,7 +35,7 @@ include $(SAM_ROOT)/macloader/Android.mk
 include $(SAM_ROOT)/wifiloader/Android.mk
 endif
 
-ifeq ($(BOARD_VENDOR),samsung)
+ifeq ($(BOARD_VENDOR),lenovo)
 include $(SAM_ROOT)/aidl/Android.mk
 include $(SAM_ROOT)/audio/Android.mk
 include $(SAM_ROOT)/doze/Android.mk

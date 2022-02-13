@@ -1,4 +1,4 @@
-/* tools/mkbootimg/samsung_dtbh.h
+/* tools/mkbootimg/lenovo_dtbh.h
 **
 ** Copyright 2016, The LineageOS Project
 **

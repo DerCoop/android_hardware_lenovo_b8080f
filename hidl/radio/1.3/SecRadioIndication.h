@@ -18,10 +18,10 @@
 
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
-#include <vendor/samsung/hardware/radio/1.2/IRadioIndication.h>
+#include <vendor/lenovo/hardware/radio/1.2/IRadioIndication.h>
 
 namespace vendor {
-namespace samsung {
+namespace lenovo {
 namespace hardware {
 namespace radio {
 namespace V1_2 {
@@ -173,10 +173,10 @@ struct SecRadioIndication : public IRadioIndication {
         ::android::hardware::radio::V1_0::RadioIndicationType type,
         const ::android::hardware::radio::V1_2::SignalStrength& signalStrength) override;
 
-    // Methods from ::vendor::samsung::hardware::radio::V1_2::IRadioIndication follow.
+    // Methods from ::vendor::lenovo::hardware::radio::V1_2::IRadioIndication follow.
     Return<void> secCurrentSignalStrength(
         ::android::hardware::radio::V1_0::RadioIndicationType type,
-        const ::vendor::samsung::hardware::radio::V1_2::SecSignalStrength& signalStrength) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::SecSignalStrength& signalStrength) override;
     Return<void> secImsNetworkStateChanged(::android::hardware::radio::V1_0::RadioIndicationType type,
                                            const hidl_vec<int32_t>& regState) override;
     Return<void> oemAcbInfoChanged(::android::hardware::radio::V1_0::RadioIndicationType type,
@@ -204,15 +204,15 @@ struct SecRadioIndication : public IRadioIndication {
     Return<void> oemSimOnOffNoti(int32_t type, int32_t mode) override;
     Return<void> oemReleaseCompleteMessageInd(
         int32_t typer,
-        const ::vendor::samsung::hardware::radio::V1_2::OemSSReleaseComplete& result) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::OemSSReleaseComplete& result) override;
     Return<void> oemSapNoti(int32_t type, const hidl_vec<int8_t>& data) override;
     Return<void> oemNrBearerAllocationChangeInd(int32_t type, int32_t status) override;
     Return<void> oem5gStatusChangeInd(int32_t type, int32_t status) override;
     Return<void> oemNrDcParamChangeInd(
-        int32_t type, const ::vendor::samsung::hardware::radio::V1_2::DcParam& dcParam) override;
+        int32_t type, const ::vendor::lenovo::hardware::radio::V1_2::DcParam& dcParam) override;
     Return<void> oemNrSignalStrengthInd(
         int32_t type,
-        const ::vendor::samsung::hardware::radio::V1_2::NrSignalStrength& nrSignalStrength) override;
+        const ::vendor::lenovo::hardware::radio::V1_2::NrSignalStrength& nrSignalStrength) override;
     Return<void> oemLoadApnProfile(const hidl_string& select,
                                    oemLoadApnProfile_cb _hidl_cb) override;
     Return<int32_t> oemGetSettingValue(const hidl_string& key, const hidl_string& table) override;
@@ -222,5 +222,5 @@ struct SecRadioIndication : public IRadioIndication {
 }  // namespace V1_2
 }  // namespace radio
 }  // namespace hardware
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace vendor

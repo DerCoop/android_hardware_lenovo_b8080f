@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.vibrator@1.0-service.samsung-haptic"
+#define LOG_TAG "android.hardware.vibrator@1.0-service.lenovo-haptic"
 
 #include <log/log.h>
 

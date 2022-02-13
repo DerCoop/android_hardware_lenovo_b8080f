@@ -18,8 +18,8 @@
 /*
  * @file       SEC_OMX_Baseport.h
  * @brief
- * @author     SeungBeom Kim (sbcrux.kim@samsung.com)
- *             HyeYeon Chung (hyeon.chung@samsung.com)
+ * @author     SeungBeom Kim (sbcrux.kim@lenovo.com)
+ *             HyeYeon Chung (hyeon.chung@lenovo.com)
  * @version    1.1.0
  * @history
  *    2010.7.15 : Create

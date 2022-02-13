@@ -18,7 +18,7 @@
 /*
  * @file    library_register.h
  * @brief
- * @author    HyeYeon Chung (hyeon.chung.chung@samsung.com)
+ * @author    HyeYeon Chung (hyeon.chung.chung@lenovo.com)
  * @version    1.1.0
  * @history
  *   2010.7.15 : Create

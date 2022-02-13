@@ -20,7 +20,7 @@
  *
  * @brief   SEC_OMX specific define
  *
- * @author  ShinWon Lee (shinwon.lee@samsung.com)
+ * @author  ShinWon Lee (shinwon.lee@lenovo.com)
  *
  * @version 1.0
  *

@@ -17,9 +17,9 @@
 
 /*
  *
- * @author Rama, Meka(v.meka@samsung.com)
-           Sangwoo, Park(sw5771.park@samsung.com)
-           Jamie Oh (jung-min.oh@samsung.com)
+ * @author Rama, Meka(v.meka@lenovo.com)
+           Sangwoo, Park(sw5771.park@lenovo.com)
+           Jamie Oh (jung-min.oh@lenovo.com)
  * @date   2011-03-11
  *
  */
@@ -952,7 +952,7 @@ static void *hwc_vsync_sysfs_loop(void *data)
     int64_t timestamp = 0;
     hwc_context_t * ctx = (hwc_context_t *)(data);
 
-    vsync_timestamp_fd = open("/sys/devices/platform/samsung-pd.2/s3cfb.0/vsync_time", O_RDONLY);
+    vsync_timestamp_fd = open("/sys/devices/platform/lenovo-pd.2/s3cfb.0/vsync_time", O_RDONLY);
     char thread_name[64] = "hwcVsyncThread";
     prctl(PR_SET_NAME, (unsigned long) &thread_name, 0, 0, 0);
     setpriority(PRIO_PROCESS, 0, -20);
@@ -1010,7 +1010,7 @@ static void *hwc_vsync_thread(void *data)
 
         int len = uevent_next_event(uevent_desc, sizeof(uevent_desc) - 2);
 
-        bool vsync = !strcmp(uevent_desc, "change@/devices/platform/samsung-pd.2/s3cfb.0");
+        bool vsync = !strcmp(uevent_desc, "change@/devices/platform/lenovo-pd.2/s3cfb.0");
         if(vsync)
             handle_vsync_uevent(ctx, uevent_desc, len);
     }

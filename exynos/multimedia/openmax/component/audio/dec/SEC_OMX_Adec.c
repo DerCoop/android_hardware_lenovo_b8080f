@@ -18,7 +18,7 @@
 /*
  * @file        SEC_OMX_Adec.c
  * @brief
- * @author      Yunji Kim (yunji.kim@samsung.com)
+ * @author      Yunji Kim (yunji.kim@lenovo.com)
  *
  * @version     1.1.0
  * @history

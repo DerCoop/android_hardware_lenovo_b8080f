@@ -20,13 +20,13 @@
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
 #include <vendor/lineage/touch/1.0/IStylusMode.h>
-#include "samsung_touch.h"
+#include "lenovo_touch.h"
 
 namespace vendor {
 namespace lineage {
 namespace touch {
 namespace V1_0 {
-namespace samsung {
+namespace lenovo {
 
 using ::android::hardware::hidl_array;
 using ::android::hardware::hidl_memory;
@@ -49,7 +49,7 @@ class StylusMode : public IStylusMode {
     // Methods from ::android::hidl::base::V1_0::IBase follow.
 };
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V1_0
 }  // namespace touch
 }  // namespace lineage

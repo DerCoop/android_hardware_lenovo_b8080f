@@ -18,7 +18,7 @@
 
 /*
 **
-** @author  Taikyung, Yu(taikyung.yu@samsung.com)
+** @author  Taikyung, Yu(taikyung.yu@lenovo.com)
 ** @date    2011-07-06
 */
 

@@ -18,7 +18,7 @@
 /*
  * @file        library_register.c
  * @brief
- * @author      Yunji Kim (yunji.kim@samsung.com)
+ * @author      Yunji Kim (yunji.kim@lenovo.com)
  * @version     1.1.0
  * @history
  *   2011.10.18 : Create

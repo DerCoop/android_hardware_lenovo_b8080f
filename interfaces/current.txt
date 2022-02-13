@@ -1,4 +1,4 @@
-d70c073053fc04425ee47b8ce56f01e984cd3af354c91fa9ce0e3833b84e2eda vendor.samsung.hardware.radio@1.2::types
-e80adc3606e15e3a71e2b3451e1785287406dca19abd719064927c8477dbb7e7 vendor.samsung.hardware.radio@1.2::IRadio
-482cdc2795dd2d3c89f81f16496a180294b00f05efc0dec599f801823f30c270 vendor.samsung.hardware.radio@1.2::IRadioIndication
-baea5e92105d0115d9b1167a21513b5d6c77fdbac78c2e53742b550d548ef8c5 vendor.samsung.hardware.radio@1.2::IRadioResponse
+aa3060e48ff73dacb3c59b98412bc84c0858d4b4dd3e9791fc099a96033c993e vendor.lenovo.hardware.radio@1.2::types
+c571217d5cad4f6da607f5eb6a0e91a1cd2c135a2384799ebe8084bf44c37d80 vendor.lenovo.hardware.radio@1.2::IRadio
+954ceacaf86ec385416690c29b80edde406aa21b3034457b6c767674128ab050 vendor.lenovo.hardware.radio@1.2::IRadioIndication
+8f1e9eec7fecde11d7d781a3deea0032d83c7831c4379074190e1012602c9e3f vendor.lenovo.hardware.radio@1.2::IRadioResponse

@@ -31,11 +31,11 @@ LOCAL_SHARED_LIBRARIES := \
     libutils \
     android.hardware.ir@1.0
 
-LOCAL_MODULE := android.hardware.ir@1.0-service.samsung
-LOCAL_INIT_RC := android.hardware.ir@1.0-service.samsung.rc
+LOCAL_MODULE := android.hardware.ir@1.0-service.lenovo
+LOCAL_INIT_RC := android.hardware.ir@1.0-service.lenovo.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := samsung
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_VENDOR_MODULE := true
 
 include $(BUILD_EXECUTABLE)

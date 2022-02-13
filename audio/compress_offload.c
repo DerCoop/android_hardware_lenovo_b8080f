@@ -38,7 +38,7 @@
 
 #include <system/thread_defs.h>
 
-#include <samsung_audio.h>
+#include <lenovo_audio.h>
 
 #include "audio_hw.h"
 #include "sound/compress_params.h"

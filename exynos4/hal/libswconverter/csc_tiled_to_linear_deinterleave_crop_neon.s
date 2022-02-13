@@ -18,7 +18,7 @@
 /*
  * @file    csc_tiled_to_linear_deinterleave_crop_neon.s
  * @brief   SEC_OMX specific define
- * @author  ShinWon Lee (shinwon.lee@samsung.com)
+ * @author  ShinWon Lee (shinwon.lee@lenovo.com)
  * @version 1.0
  * @history
  *   2012.02.01 : Create

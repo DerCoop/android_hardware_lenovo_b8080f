@@ -119,12 +119,12 @@ Return<void> HalProxy::getSensorsList_2_1(ISensorsV2_1::getSensorsList_2_1_cb _h
     for (const auto& iter : mSensors) {
         V2_1::SensorInfo dst = iter.second;
 
-        if (dst.requiredPermission == "com.samsung.permission.SSENSOR") {
+        if (dst.requiredPermission == "com.lenovo.permission.SSENSOR") {
             dst.requiredPermission = "";
         }
 
-        if (dst.typeAsString == "com.samsung.sensor.physical_proximity") {
-            ALOGI("Fixing com.samsung.sensor.physical_proximity");
+        if (dst.typeAsString == "com.lenovo.sensor.physical_proximity") {
+            ALOGI("Fixing com.lenovo.sensor.physical_proximity");
             dst.type = V2_1::SensorType::PROXIMITY;
             dst.typeAsString = SENSOR_STRING_TYPE_PROXIMITY;
             dst.maxRange = 1;

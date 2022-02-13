@@ -42,11 +42,11 @@ ifeq ($(TARGET_SEC_FP_CALL_CANCEL_ON_ENROLL_COMPLETION),true)
     LOCAL_CFLAGS += -DCALL_CANCEL_ON_ENROLL_COMPLETION
 endif
 
-LOCAL_MODULE := android.hardware.biometrics.fingerprint@2.1-service.samsung
-LOCAL_INIT_RC := android.hardware.biometrics.fingerprint@2.1-service.samsung.rc
+LOCAL_MODULE := android.hardware.biometrics.fingerprint@2.1-service.lenovo
+LOCAL_INIT_RC := android.hardware.biometrics.fingerprint@2.1-service.lenovo.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := samsung
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_VENDOR_MODULE := true
 
 include $(BUILD_EXECUTABLE)

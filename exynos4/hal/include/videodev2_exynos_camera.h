@@ -1,7 +1,7 @@
 /*
- * Video for Linux Two header file for samsung
+ * Video for Linux Two header file for lenovo
  *
- * Copyright (C) 2009, Dongsoo Nathaniel Kim<dongsoo45.kim@samsung.com>
+ * Copyright (C) 2009, Dongsoo Nathaniel Kim<dongsoo45.kim@lenovo.com>
  *
  * This header file contains several v4l2 APIs to be proposed to v4l2
  * community and until bein accepted, will be used restrictly in Samsung's

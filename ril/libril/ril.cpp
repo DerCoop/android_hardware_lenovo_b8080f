@@ -242,7 +242,7 @@ addRequestToList(int serial, int slotId, int request) {
     CommandInfo *pCI = NULL;
     if (request > RIL_OEM_REQUEST_BASE) {
         int index = request - RIL_OEM_REQUEST_BASE;
-        RLOGD("processCommandBuffer: samsung request=%d, index=%d",
+        RLOGD("processCommandBuffer: lenovo request=%d, index=%d",
                 request, index);
         if (index < (int32_t)NUM_ELEMS(s_commands_v))
             pCI = &(s_commands_v[index]);

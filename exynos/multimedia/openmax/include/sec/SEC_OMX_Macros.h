@@ -18,7 +18,7 @@
 /*
  * @file    SEC_OMX_Macros.h
  * @brief   Macros
- * @author  SeungBeom Kim (sbcrux.kim@samsung.com)
+ * @author  SeungBeom Kim (sbcrux.kim@lenovo.com)
  * @version    1.1.0
  * @history
  *   2010.7.15 : Create

@@ -19,7 +19,7 @@
 #include <android/hardware/radio/1.3/IRadio.h>
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
-#include <vendor/samsung/hardware/radio/1.2/IRadio.h>
+#include <vendor/lenovo/hardware/radio/1.2/IRadio.h>
 
 #include "SecRadioIndication.h"
 #include "SecRadioResponse.h"
@@ -40,17 +40,17 @@ using ::android::hardware::hidl_string;
 using ::android::hardware::hidl_vec;
 using ::android::hardware::Return;
 using ::android::hardware::Void;
-using ::vendor::samsung::hardware::radio::V1_2::implementation::SecRadioIndication;
-using ::vendor::samsung::hardware::radio::V1_2::implementation::SecRadioResponse;
+using ::vendor::lenovo::hardware::radio::V1_2::implementation::SecRadioIndication;
+using ::vendor::lenovo::hardware::radio::V1_2::implementation::SecRadioResponse;
 
 struct Radio : public IRadio {
     std::string interfaceName;
     std::mutex secIRadioMutex;
-    sp<::vendor::samsung::hardware::radio::V1_2::IRadio> secIRadio;
+    sp<::vendor::lenovo::hardware::radio::V1_2::IRadio> secIRadio;
 
     Radio(const std::string& interfaceName);
 
-    sp<::vendor::samsung::hardware::radio::V1_2::IRadio> getSecIRadio();
+    sp<::vendor::lenovo::hardware::radio::V1_2::IRadio> getSecIRadio();
 
     // Methods from ::android::hardware::radio::V1_0::IRadio follow.
     Return<void> setResponseFunctions(

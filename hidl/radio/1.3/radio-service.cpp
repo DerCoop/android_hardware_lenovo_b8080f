@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#define LOG_TAG "android.hardware.radio@1.3-radio-service.samsung"
+#define LOG_TAG "android.hardware.radio@1.3-radio-service.lenovo"
 
 #include <android/hardware/radio/1.3/IRadio.h>
 #include <hidl/HidlTransportSupport.h>

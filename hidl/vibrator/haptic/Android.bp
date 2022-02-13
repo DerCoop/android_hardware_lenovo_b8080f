@@ -13,11 +13,11 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.vibrator@1.0-service.samsung-haptic",
+    name: "android.hardware.vibrator@1.0-service.lenovo-haptic",
     defaults: ["hidl_defaults"],
     vendor: true,
     relative_install_path: "hw",
-    init_rc: ["android.hardware.vibrator@1.0-service.samsung-haptic.rc"],
+    init_rc: ["android.hardware.vibrator@1.0-service.lenovo-haptic.rc"],
     srcs: ["service.cpp", "Vibrator.cpp"],
     shared_libs: [
         "libbase",

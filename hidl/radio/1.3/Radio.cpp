@@ -24,10 +24,10 @@ namespace implementation {
 
 Radio::Radio(const std::string& interfaceName) : interfaceName(interfaceName) {}
 
-sp<::vendor::samsung::hardware::radio::V1_2::IRadio> Radio::getSecIRadio() {
+sp<::vendor::lenovo::hardware::radio::V1_2::IRadio> Radio::getSecIRadio() {
     std::lock_guard<std::mutex> lock(secIRadioMutex);
     if (!secIRadio) {
-        secIRadio = ::vendor::samsung::hardware::radio::V1_2::IRadio::getService(interfaceName);
+        secIRadio = ::vendor::lenovo::hardware::radio::V1_2::IRadio::getService(interfaceName);
     }
     return secIRadio;
 }
@@ -36,12 +36,12 @@ sp<::vendor::samsung::hardware::radio::V1_2::IRadio> Radio::getSecIRadio() {
 Return<void> Radio::setResponseFunctions(
     const sp<::android::hardware::radio::V1_0::IRadioResponse>& radioResponse,
     const sp<::android::hardware::radio::V1_0::IRadioIndication>& radioIndication) {
-    sp<::vendor::samsung::hardware::radio::V1_2::IRadioResponse> secRadioResponse =
+    sp<::vendor::lenovo::hardware::radio::V1_2::IRadioResponse> secRadioResponse =
         new SecRadioResponse(
             interfaceName == RIL1_SERVICE_NAME ? 1 : 2,
             ::android::hardware::radio::V1_2::IRadioResponse::castFrom(radioResponse)
                 .withDefault(nullptr));
-    sp<::vendor::samsung::hardware::radio::V1_2::IRadioIndication> secRadioIndication =
+    sp<::vendor::lenovo::hardware::radio::V1_2::IRadioIndication> secRadioIndication =
         new SecRadioIndication(
             ::android::hardware::radio::V1_2::IRadioIndication::castFrom(radioIndication)
                 .withDefault(nullptr));

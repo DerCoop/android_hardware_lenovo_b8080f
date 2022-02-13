@@ -4,7 +4,7 @@
  *
  * Oem_ril_sap.h
  *
- * author: young jin Park (lucky29.park@samsung.com)
+ * author: young jin Park (lucky29.park@lenovo.com)
  * data : 20100129 
 */
 

@@ -18,8 +18,8 @@
 /*
  * @file        SEC_OSAL_Buffer.h
  * @brief
- * @author      SeungBeom Kim (sbcrux.kim@samsung.com)
- *              Jinsung Yang (jsgood.yang@samsung.com)
+ * @author      SeungBeom Kim (sbcrux.kim@lenovo.com)
+ *              Jinsung Yang (jsgood.yang@lenovo.com)
  * @version     1.0.2
  * @history
  *   2011.5.15 : Create

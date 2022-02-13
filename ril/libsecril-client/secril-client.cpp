@@ -1,7 +1,7 @@
 /**
  * @file    secril-client.cpp
  *
- * @author  Myeongcheol Kim (mcmount.kim@samsung.com)
+ * @author  Myeongcheol Kim (mcmount.kim@lenovo.com)
  *
  * @brief   RIL client library for multi-client support
  */

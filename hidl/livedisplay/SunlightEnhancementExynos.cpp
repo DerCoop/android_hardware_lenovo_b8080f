@@ -29,7 +29,7 @@ namespace vendor {
 namespace lineage {
 namespace livedisplay {
 namespace V2_0 {
-namespace samsung {
+namespace lenovo {
 
 static constexpr const char* kLUXPath = "/sys/class/mdnie/mdnie/lux";
 
@@ -56,7 +56,7 @@ Return<bool> SunlightEnhancementExynos::setEnabled(bool enabled) {
     return WriteStringToFile(enabled ? "40000" : "0", kLUXPath, true);
 }
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V2_0
 }  // namespace livedisplay
 }  // namespace lineage

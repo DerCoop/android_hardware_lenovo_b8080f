@@ -30,7 +30,7 @@ namespace vendor {
 namespace lineage {
 namespace livedisplay {
 namespace V2_0 {
-namespace samsung {
+namespace lenovo {
 
 bool DisplayColorCalibration::isSupported() {
     std::fstream rgb(FILE_RGB, rgb.in | rgb.out);
@@ -72,7 +72,7 @@ Return<bool> DisplayColorCalibration::setCalibration(const hidl_vec<int32_t>& rg
     return WriteStringToFile(Trim(contents), FILE_RGB, true);
 }
 
-}  // namespace samsung
+}  // namespace lenovo
 }  // namespace V2_0
 }  // namespace livedisplay
 }  // namespace lineage

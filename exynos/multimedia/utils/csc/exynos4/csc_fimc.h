@@ -19,7 +19,7 @@
  *
  * @brief   csc_fimc use fimc1 to color space convertion
  *
- * @author  ShinWon Lee (shinwon.lee@samsung.com)
+ * @author  ShinWon Lee (shinwon.lee@lenovo.com)
  *
  * @version 1.0
  *

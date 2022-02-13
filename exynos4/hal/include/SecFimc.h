@@ -17,14 +17,14 @@
 /*!
  * \file      SecFimc.h
  * \brief     header file for Fimc HAL MODULE
- * \author    Hyunkyung, Kim(hk310.kim@samsung.com)
+ * \author    Hyunkyung, Kim(hk310.kim@lenovo.com)
  * \date      2010/10/13
  *
  * <b>Revision History: </b>
- * - 2010/10/13 : Hyunkyung, Kim(hk310.kim@samsung.com) \n
+ * - 2010/10/13 : Hyunkyung, Kim(hk310.kim@lenovo.com) \n
  *   Initial version
  *
- * - 2011/11/15 : Sunmi, Lee(carrotsm.lee@samsung.com) \n
+ * - 2011/11/15 : Sunmi, Lee(carrotsm.lee@lenovo.com) \n
  *   Adjust V4L2 architecture \n
  */
 

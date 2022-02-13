@@ -22,7 +22,7 @@
 #include <hidl/Status.h>
 #include <fstream>
 #include <unordered_map>
-#include "samsung_lights.h"
+#include "lenovo_lights.h"
 
 namespace android {
 namespace hardware {

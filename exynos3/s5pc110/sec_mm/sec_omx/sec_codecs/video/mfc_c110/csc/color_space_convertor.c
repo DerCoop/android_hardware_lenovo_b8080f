@@ -18,7 +18,7 @@
 /*
  * @file    color_space_convertor.c
  * @brief   SEC_OMX specific define
- * @author  ShinWon Lee (shinwon.lee@samsung.com)
+ * @author  ShinWon Lee (shinwon.lee@lenovo.com)
  * @version 1.0
  * @history
  *   2011.7.01 : Create
